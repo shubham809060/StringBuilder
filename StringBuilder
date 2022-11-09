@@ -1,0 +1,12 @@
+public class string {
+    public static void main(String args[])
+    {
+        StringBuilder str=new StringBuilder("Shubh@m");
+        str.append("Tiwari");// add string at last
+        System.out.println(str);
+        str.insert(6,'a');//Insert char
+        System.out.println(str.charAt(1));//return specific index
+        System.out.println(str);
+        System.out.println(str.length()); //find length
+    }
+}
